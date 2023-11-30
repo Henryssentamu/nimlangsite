@@ -1,0 +1,48 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.service-container {
+    max-width: 1050px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.service {
+    margin-bottom: 20px;
+}
+
+.service h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #007BFF;
+}
+
+.service p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+}
+
+/* Additional Styling */
+header {
+    text-align: center;
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 10px;
+}

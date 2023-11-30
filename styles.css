@@ -1,0 +1,146 @@
+
+body{
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    
+}
+
+.slide1, .slide2, .slide3{
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+img{
+    width: 120%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    animation: zoom-out 5s linear infinite;
+}
+
+@keyframes zoom-out{
+    100%{
+            width: 100%;
+
+    }
+}
+
+.discription{
+    width: 600px;
+    position: absolute;
+    color: white;
+    top: 200px;
+    left: 100px;
+    animation:  text-up 12s linear infinite;
+    transform: translateY(100px);
+    
+}
+
+.discription h1{
+    border-bottom: 200px;
+    
+}
+
+.discription p{
+    width: 300px;
+    line-height: 20px;
+    font-size: 14px;
+}
+
+
+
+
+
+.slide1{
+    animation: slide1 12s linear infinite;
+}
+.slide2{
+    animation: slide2 12s linear infinite;
+}
+.slide3{
+    animation: slide3 12s linear infinite;
+}
+
+@keyframes slide1{
+    0%{
+        visibility: visible;
+    }
+    25%{
+        visibility: hidden;
+    }
+    50%{
+        visibility: hidden;
+    }
+    75%{
+        visibility: hidden;
+    }
+    100%{
+        visibility: visible;
+    }
+}
+
+@keyframes slide2{
+    0%{
+        visibility: hidden;
+    }
+    25%{
+        visibility: hidden;
+    }
+    50%{
+        visibility: visible;
+    }
+    75%{
+        visibility: hidden;
+    }
+    100%{
+        visibility: hidden;
+    }
+}
+
+@keyframes slide3{
+    0%{
+        visibility: hidden;
+    }
+    25%{
+        visibility: hidden;
+    }
+    50%{
+        visibility: hidden;
+    }
+    75%{
+        visibility: hidden;
+    }
+    100%{
+        visibility: visible;
+    }
+}
+
+@keyframes text-up{
+    10%{
+        transform: translateY(0px);
+    }
+
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+
+.discription1{
+    animation-delay: 0s;
+}
+
+.discription2{
+    animation-delay: 3s;
+}
+
+.discription3{
+    animation-delay: 6s;
+}
+

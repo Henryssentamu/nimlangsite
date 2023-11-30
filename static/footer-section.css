@@ -1,0 +1,50 @@
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0;
+    bottom: 0;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.column {
+    flex: 0 0 30%; /* Set the column width as needed */
+    margin-bottom: 20px;
+}
+
+.column h4 {
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.column p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.column ul li {
+    margin-bottom: 5px;
+}
+
+.column a {
+    color: #bbb;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.column a:hover {
+    color: #fff;
+}
