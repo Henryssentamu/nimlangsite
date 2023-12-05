@@ -7,7 +7,7 @@ body {
     color: #333;
 }
 
-.service-container {
+.service-container-on-page {
     width: 1000px;
     margin: 20px auto;
     padding: 20px;
@@ -40,7 +40,7 @@ header {
     color: #fff;
 }
 
-img {
+.img-on-service-page{
     width: 80%;
     /* height: auto; */
     border-radius: 8px;
